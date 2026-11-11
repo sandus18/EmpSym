@@ -7,7 +7,7 @@ export default function Home({ onOpenDirectory, onAddEmployee, employeeCount = 0
       <nav className="landing-nav">
         <div className="landing-logo" onClick={onOpenDirectory} role="button" tabIndex={0}>
         
-          <span className="logo-text">EmpSyn</span>
+          <span className="logo-text">EmpSym</span>
         </div>
         <div className="landing-nav-actions">
           
@@ -22,7 +22,7 @@ export default function Home({ onOpenDirectory, onAddEmployee, employeeCount = 0
       <section className="landing-hero">
         
         <h1 className="hero-title">
-          Manage your team with <span className="highlight">clarity &amp; speed</span>
+          Manage your team with <span className="highlight">EmpSym </span>
         </h1>
         <p className="hero-subtitle">
           A modern, minimal workspace to track employee records, departments, salary, and onboarding dates.

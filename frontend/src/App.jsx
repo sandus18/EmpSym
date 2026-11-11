@@ -13,7 +13,7 @@ export default function App() {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState("");
   const [formOpen, setFormOpen] = useState(false);
-  const [editing, setEditing] = useState(null); // employee being edited, or null for "add"
+  const [editing, setEditing] = useState(null);
   const [toDelete, setToDelete] = useState(null);
   const [notice, setNotice] = useState("");
 
